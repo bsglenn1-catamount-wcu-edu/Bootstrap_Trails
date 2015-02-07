@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Cullowhee Trails</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="ProjectedOverlay.js"></script>
+    <script type="text/javascript" src="geoxml3.js"></script>
+    <script type="text/javascript" src="route_Map.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>body{padding-bottom:0px;padding-top: 66px;}</style>
+
+</head>
+<body>
+    <div class="navbar-header ">
+        <div class="navbar navbar-fixed-top">
+            <!-- Navbar Content -->
+            <div class="row">
+                <div class="col-xs-2">
+                    <a href="Index.html" class="navbar-left"><img id="logo" class="pull-left img-rounded" src="Images/PurpleWCUlogo.jpg" /></a>
+                </div>
+                <div class="col-xs-8">
+                    <div class="navbar-text">
+                        <h3>Cullowhee Trails</h3>
+                    </div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="navbar-header navbar-right">
+                        <a id="nav-expander" class="nav-expander fixed">
+                            <span id="Glypharrow" class="glyphicon glyphicon-align-justify"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav style="top:100px;">
+            <!-- List of contenet in the side panel -->
+            <ul class="list-unstyled main-menu">
+                <li><a href="Index.html"><img id="imgIcon" src="Images/back.png" /> <span class="icon">Home</span></a></li>
+                <li><a href="Hiking_Menu.html"><img id="imgIcon" src="Images/whitehike.png" />   <span class="icon">Hiking Trails</span></a></li>
+                <li><a href="Jogging_Menu.html"> <img id="imgIcon" src="Images/whitejog.png" />  <span class="icon">Jogging Trails</span></a></li>
+                <li><a href="MountainBiking_Menu.html"><img id="imgIcon" src="Images/whitemtnbike.png" /> <span class="icon">Mountian Bike</span></a></li>
+                <li><a href="RoadBiking_Menu.html"> <img id="imgIcon" src="Images/whiterdcycle.png" />  <span class="icon">Road Cycle Trail</span></a></li>
+                <li><a href="Fishing_Menu.html"> <img id="imgIcon" src="Images/whitefish.png" />  <span class="icon">Fishing Trail</span></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="page" >
+        <div id="poi_map">           
+            <div id="divMapCanvas"></div>                
+            </div>
+        </div>    
+</body>
+</html>

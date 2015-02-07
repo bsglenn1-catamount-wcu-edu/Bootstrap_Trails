@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Fishing_Tuckaseegee_River_(Dillsboro).kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>4.1</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>4.1</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Tuckaseegee River (Dillsboro)</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-83.26747186246723,35.38357885346625,0 -83.26730441905022,35.38194926428256,0 -83.26622831570357,35.38004336031512,0 -83.26580296443404,35.37932989938528,0 -83.2662185398399,35.37771242913912,0 -83.26716573824159,35.37623728924648,0 -83.26793201688111,35.37550474977225,0 -83.26739134450394,35.37439876965173,0 -83.26625180716893,35.37271077934638,0 -83.26537916288135,35.37182748699001,0 -83.26431044335337,35.37088200523294,0 -83.26337453116742,35.36978027412581,0 -83.26186381577041,35.36823764999517,0 -83.26096730048762,35.36752242194245,0 -83.26026433135661,35.36715180522404,0 -83.26022477234434,35.3671523956241,0 -83.26015627070504,35.367164045282,0 -83.25980445138126,35.36669071194682,0 -83.25858472741142,35.36647009137646,0 -83.25808030555865,35.36623802924301,0 -83.25768570849584,35.36620924279868,0 -83.25726717240018,35.36617045504389,0 -83.2559862332057,35.36669098965682,0 -83.25504251752248,35.36700666047282,0 -83.25404764943467,35.36722716322539,0 -83.25324826216888,35.36718668009143,0 -83.25255904868274,35.36736718133079,0 -83.25184711615097,35.36724726426202,0 -83.250574845119,35.36704676614451,0 -83.24971605140729,35.36670318260353,0 -83.24879906500557,35.36631636440838,0 -83.24782760963845,35.36606669670373,0 -83.24721705179462,35.36534051177015,0 -83.2469835047018,35.36417719875826,0 -83.24664107730344,35.36266689480956,0 -83.24619345801391,35.36114130863918,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

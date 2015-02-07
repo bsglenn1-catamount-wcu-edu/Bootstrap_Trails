@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DA_POI">
+    <Position X="0.5" Y="0.5" Width="5.25" />
+    <Members>
+      <Field Name="currentContext" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQAAAEAQAAAAAAAAAAAAABAAAAAAAAACEAAAIAAAAAA=</HashCode>
+      <FileName>App_Code\DA_POI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TO_POI">
+    <Position X="0.5" Y="2.5" Width="5.25" />
+    <Members>
+      <Field Name="_POI_Description" Hidden="true" />
+      <Field Name="_POI_ID" Hidden="true" />
+      <Field Name="_POI_Image1" Hidden="true" />
+      <Field Name="_POI_Image2" Hidden="true" />
+      <Field Name="_POI_Image3" Hidden="true" />
+      <Field Name="_POI_Latitude" Hidden="true" />
+      <Field Name="_POI_Logitude" Hidden="true" />
+      <Field Name="_POI_Title" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAAABIAgAAAAAAACAAAAAAeQAAAAAAAwQACAA=</HashCode>
+      <FileName>App_Code\TO_POI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

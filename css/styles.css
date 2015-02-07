@@ -1,0 +1,223 @@
+﻿#poi_map {
+    background: white;
+    height: 100%;
+}
+html, #page, #divMapCanvas{
+    height:100%;
+}
+#turnByTurnDirections{
+    background-color:rgba(89,44,136, 0.7);
+}
+.adp-step, .adp-text{
+        color:white;
+}
+.adp, .adp table{
+    background-color:transparent;
+    border:none;
+}
+.adp, .adp table{
+    color:white;
+}
+
+/* =========== */
+/* = Modal style Start= */
+/* =========== */
+#modal-pic{
+    width:100%;
+    height:auto;
+    padding:0px 0px 15px 0px;    
+}
+.modal-dialog{
+    width:100%;
+    margin: 90px 0px 0px 0px;
+    padding:0px;
+    background-color: rgba(89,44,136, 0.7);
+}
+.modal-body{
+    padding:0px;    
+   background-color: transparent;
+}
+.modal-header, .modal-header .close{
+    text-align:center;
+    color:white;
+    opacity:1;
+    background-color: transparent;
+}
+.modal-content{
+    background-color:transparent;
+}
+.modal-open #page{
+ opacity: .03; 
+}
+/* =========== */
+/* = Modal Style End = */
+/* =========== */
+
+/* =========== */
+/* = Navbar Style Start= */
+/* =========== */
+nav {
+  /*background-image: url('../Images/sbarbg (1).png');*/ 
+ background-color: rgba(89,44,136, 0.7); 
+ overflow: auto;
+  position: fixed;
+  right: -20em;
+  width: 14.8em;  
+  z-index: 2000;
+  transition: right 0.2s ease-in-out 0s;
+  -webkit-transition: right 0.2s ease-in-out 0s;
+  -moz-transition: right 0.2s ease-in-out 0s;
+  -o-transition: right 0.2s ease-in-out 0s;
+  margin-top:-34px;
+  border-top:1.5px solid white;
+
+}
+.nav-expanded #page, .nav-expanded .modal {
+    opacity: .03;     
+}
+body.nav-expanded, .modal-open {
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../Images/DAVIDSBG.png');
+}
+.navbar-text{
+    color:white;
+    float:none;
+    text-align:center;
+}
+a.nav-expander {
+background-color: rgba(0,0,0,0);
+  color: white;
+  display: block;
+  font-size: 25px;
+  padding: .6em .6em 0em;
+  position: absolute;
+  right: 0;
+  z-index: 12;  
+
+}
+a.nav-expander:hover {
+  cursor: pointer;
+}
+a.nav-expander.fixed {
+  position: fixed;
+}
+.nav-expanded nav {
+  right: 0;
+}
+.navbar-fixed-top{
+    background-color: rgba(89,44,136, 0.7);
+    z-index:2001;
+    transition: all 0.5s ease;
+}
+.scroll-nav{
+    background-color: transparent;
+    border:none;
+}
+#nav-close {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding-right: 10px;
+}
+.main-menu li {  
+  margin-left: 20px;
+  font-size: 15px;
+  padding: 12px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+/* =========== */
+/* = Navbar Style End = */
+/* =========== */
+
+/* =========== */
+/* = Panel Style Start = */
+/* =========== */
+
+a:hover, a:focus, a {
+color:white;
+ text-decoration: none; 
+}
+.panel-title{
+    color: white;
+}
+.panel {
+        background-color: rgba(89,44,136, 0.7);
+        border:none;
+        color:white;
+}
+/* =========== */
+/* = Panel Style End = */
+/* =========== */
+
+/* =========== */
+/* = List group Items = */
+/* =========== */
+.list-group-item-heading{
+     border:1.5px solid white;
+    color:white!important;
+    background-color: rgba(89,44,136, 0.7);
+    text-align:center;
+    margin-bottom:0px;
+    border-bottom:1.5px solid white;
+    padding:15px;
+}
+.list-group-item{
+        border-top:1.5px solid white;
+    color:white!important;
+    background-color: rgba(89,44,136, 0.7);
+    text-align:center;
+}
+a.list-group-item:hover{
+    background-color: rgba(89,44,136, 0.9);
+}
+/* =========== */
+/* = List group Items End = */
+/* =========== */
+
+/* =========== */
+/* = Thumbnail Style = */
+/* =========== */
+.thumbnail{
+    background-color:transparent;
+    max-height: 90px;
+    max-width: 90px;
+    color:white;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align:center;
+    font-size:20px;
+    border:none;    
+}
+/* =========== */
+/* = Thumbnail Style End = */
+/* =========== */
+#mapIcon{
+    max-height:60px;
+    max-width:60px;
+}
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/DAVIDSBG.png');
+    padding-top: 100px;
+    padding-bottom:100px;
+    height:99.9%;
+}
+#logo{
+    height:65px;
+    transition: all 0.5s ease;
+}
+#imgIcon{
+    max-height:50px;
+    max-width:50px;
+}
+#POI_title{
+    color:white;
+    text-align:center;
+}
+.hidden{
+    display:none;
+}
+.btn-primary {
+color: #fff;
+    background-color: rgba(89,44,136, 0.7);
+border:1.5px solid white;}
